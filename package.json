@@ -1,25 +1,50 @@
 {
-  "name": "nialls-todo",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+	"name": "nialls-todo",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"grommet-icons": "^4.2.0",
+		"node-sass": "^4.11.0",
+		"prop-types": "^15.7.2",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-redux": "^6.0.1",
+		"react-router-dom": "^5.0.0",
+		"react-scripts": "2.1.8",
+		"redux": "^4.0.1",
+		"redux-thunk": "^2.3.0",
+		"styled-components": "^4.2.0",
+		"styled-media-query": "^2.1.1"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"babel-eslint": "^9.0.0",
+		"eslint": "5.12.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^4.1.0",
+		"eslint-config-wesbos": "0.0.19",
+		"eslint-plugin-html": "^5.0.3",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-prettier": "^3.0.1",
+		"eslint-plugin-react": "^7.12.4",
+		"eslint-plugin-react-hooks": "^1.6.0",
+		"prettier": "^1.16.4"
+	}
 }
